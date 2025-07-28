@@ -5,8 +5,31 @@
     background-color: beige;
 }
 
-.nav-img {
-    background-image: url("../images/olives1.JPG");
-    background-position: center;
-    min-height: 325px;
+.navbar {
+    width: 100%;
+    opacity: 60%;
 }
+
+a, ul {
+    background-color: silver;
+}
+
+.navbar-container {
+    background-color: silver;
+    padding: 1%;
+    opacity: 90%;
+}
+
+.img {
+    background-image: url("../images/olives1.JPG");
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    height: 20em;
+    padding-bottom: 20%;
+}
+
+/**
+TODO
+ - Bæta við kúrvu og border utan um navbar listann.
+**/
