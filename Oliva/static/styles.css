@@ -49,7 +49,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 20em;
-  padding-bottom: 10em;
+  padding-bottom: 0em;
   padding-left: 5em;
   padding-right: 10em;
   overflow: hidden;  /**til að bakgrunnurinn flæði ekki út**/
@@ -65,7 +65,7 @@ body {
   background-image: url("../images/olives1.JPG");
   background-size: cover;
   background-position: center;
-  opacity: 0.79;  /*---  stilltu eftir smekk*/
+  opacity: 0.65;  /*---  stilltu eftir smekk*/
   z-index: 0;
 }
 
@@ -86,7 +86,7 @@ body {
 
 
 l {
-    font-size: larger;
+    font-size: x-large;
     font-weight: bolder;
 }
 
