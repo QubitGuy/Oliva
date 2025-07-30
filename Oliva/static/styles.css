@@ -2,22 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: beige;
 }
 
 .navbar {
     width: 100%;
-    opacity: 60%;
 }
 
-a, ul {
-    background-color: silver;
-}
-
-.navbar-container {
-    background-color: silver;
-    padding: 1%;
-    opacity: 90%;
+body {
+    background-color: beige;
 }
 
 .img {
