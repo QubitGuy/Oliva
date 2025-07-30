@@ -52,7 +52,7 @@ body {
   padding-bottom: 10em;
   padding-left: 5em;
   padding-right: 10em;
-  overflow: hidden;  ---  /*til að bakgrunnurinn flæði ekki út*/
+  overflow: hidden;  /**til að bakgrunnurinn flæði ekki út**/
 }
 
 .img::before {
