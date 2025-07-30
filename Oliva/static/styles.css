@@ -69,6 +69,14 @@ body {
   z-index: 0;
 }
 
+.navbar a:hover {
+  font-size: larger;         /* Extra feitt */
+  font-weight: bolder;
+  text-decoration: underline; /* Undirstrikun */
+  color: #2e2e2e;           /* Valfrjálst – aðeins dekkri litur */
+  cursor: pointer;          /* Sýnir að þetta er smella */
+}
+
 .navbar-container {
   position: relative;
   z-index: 1;
@@ -87,7 +95,7 @@ body {
 
 l {
     font-size: x-large;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 /**
