@@ -4,21 +4,90 @@
     box-sizing: border-box;
 }
 
-.navbar {
-    width: 100%;
-}
-
 body {
     background-color: beige;
 }
 
+/**
+
 .img {
-    background-image: url("../images/olives1.JPG");
-    display: flex;;
-    justify-content: center;
-    align-items: center;
-    height: 20em;
-    padding-bottom: 20%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20em;
+  padding-bottom: 10em;
+  padding-left: 5em;
+  padding-right: 10em;
+  overflow: hidden;  ---  til að bakgrunnurinn flæði ekki út
+}
+
+.img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/olives1.JPG");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4;  ---  stilltu eftir smekk
+  z-index: 0;
+}
+
+.navbar-container {
+  position: relative;
+  z-index: 1;
+}
+
+**/
+
+.img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20em;
+  padding-bottom: 10em;
+  padding-left: 5em;
+  padding-right: 10em;
+  overflow: hidden;  ---  /*til að bakgrunnurinn flæði ekki út*/
+}
+
+.img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/olives1.JPG");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.79;  /*---  stilltu eftir smekk*/
+  z-index: 0;
+}
+
+.navbar-container {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar {
+    width: 100%;   
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+l {
+    font-size: larger;
+    font-weight: bolder;
 }
 
 /**
